@@ -1,72 +1,50 @@
 # budget-tracker
 
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+## Links
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+[Deployed Application](https://budget-tracker-ki.herokuapp.com/)
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+## Description
 
-Offline Functionality:
-
-  * Enter deposits offline
-
-  * Enter expenses offline
-
-When brought back online:
-
-  * Offline entries should be added to tracker.
-
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
-
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+* This app helps to keep records of daily withdraws and deposits in your bank accounts. It keeps track of your personal expenses and deposits. Budget tracker allows you to enter your records offline and updates it when user gets a connection to internet.
 
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+## Table of Contents
 
-- - -
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Questions](#questions)
 
-## Commit Early and Often
+## Installation
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+To install the app users should download the repository, install the required dependencies listed in the package.JSON file by running "npm i" in the root folder of the repository.
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+## Usage
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+After you install the application, enter a deposit or withdraw transaction and update your account balance. 
 
-* Follow these guidelines for committing:
 
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+## License
 
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+N/A
 
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
+## Contributing
 
-  * Test your application before you commit to ensure functionality at every step in the development process
+Everyone can contribute and make the next version of the app.
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+## Questions
 
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
+Contact me for additional questions or to say "Hi":
 
-## Submission on BCS
+- [GitHub Profile](https://github.com/kiankovskaia)
 
-* You are required to submit the following:
+- [email](mailto:kiankovskaia@gmail.com)
 
-  * the URL to the deployed application
+## Demo
 
-  * the URL to the Github repository
+The following video demonstrates the application functionality:
 
-- - -
+![DEMO](demo.JPG)
 
-## Hint
-
-* In order to cache dynamic content, i.e. users' inputs for withdrawals or deposits, incorporate `indexedDB` from the previous module.
-
-* Use [Google](https://www.google.com) or another search engine to research this topic.
