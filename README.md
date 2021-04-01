@@ -2,16 +2,11 @@
 
 ## Links
 
-[Deployed Application](https://user-directory-ki.herokuapp.com/)
+[Deployed Application](https://budget-tracker-ki.herokuapp.com/)
 
 ## Description
 
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
-
-## Business Context
-
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
-
+* This app helps to keep records of daily withdraws and deposits in your bank accounts. It keeps track of your personal expenses and deposits. Budget tracker allows you to enter your records offline and updates it when user gets a connection to internet.
 
 
 ## Table of Contents
@@ -24,11 +19,11 @@ An employee or manager would benefit greatly from being able to view non-sensiti
 
 ## Installation
 
-To install the app users should download the repository, install the required dependencies listed in the package.JSON file by running "npm i" in the root folder of the repository. Application can be evoked by running npm start.
+To install the app users should download the repository, install the required dependencies listed in the package.JSON file by running "npm i" in the root folder of the repository.
 
 ## Usage
 
-After you install the application you will be provided with a list of random generated employees. The table contains name, address, phone number and email. A user can filter them by name. 
+After you install the application, enter a deposit or withdraw transaction and update your account balance. 
 
 
 ## License
@@ -51,5 +46,6 @@ Contact me for additional questions or to say "Hi":
 
 The following video demonstrates the application functionality:
 
-![DEMO](/public/assets/images/demo.JPG)
+![DEMO](public\assets\images\demo.JPG)
+
 
